@@ -2,19 +2,19 @@
 **/.terraform/*
 
 # .tfstate files
-*.tfstate
-*.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
 
 # Crash log files
-crash.log
+**/crash.log
 
 # terraform.tvars
-terraform.tfvars
+**/terraform.tfvars
 
 # known files created by terraform modules
-id_rsa*
-kube_config*
+**/id_rsa*
+**/kube_config*
 
 # vagrant files
-.vagrant/
+**/.vagrant/
 
